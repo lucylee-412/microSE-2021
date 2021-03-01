@@ -5,9 +5,9 @@
 Assignment: Take the given Midterm Project files from the first half of the group project, and revamp the site.
 
 We decided to go with an anime theme, and assigned each member an HTML file.
-- Home page (originally SiestaCon) - **Artem**
-- Anime character facts (originally state facts & postcard generator) - **Kelia**
-- Contact form (originally Helping Hands contact form) - **Lucy**
+- Home page (https://lucylee-412.github.io/microSE_2-26/Home.html) (originally SiestaCon) - **Artem**
+- Anime character facts (https://lucylee-412.github.io/microSE_2-26/Bio.html) (originally state facts & postcard generator) - **Kelia**
+- Contact form & random button generator (https://lucylee-412.github.io/microSE_2-26/Contact.html) (originally Helping Hands contact form) - **Lucy**
 
 ### Change Log:
 *3/1:*
