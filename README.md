@@ -4,6 +4,7 @@
 
 ###### Assignment: Take the given Midterm Project files from the first half of the group project, and revamp the site.
 
+
 We decided to go with an anime theme, and divided the three pages we created among the three members.
 - Home page (originally SiestaCon) - **Artem**
 - Anime character facts (originally state facts & postcard generator) - **Kelia**
