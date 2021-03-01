@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anime Characters</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo|Open+Sans:300,400|Oswald:700">
+	<link rel="stylesheet" href="css/main2.css">
+	<link rel="stylesheet" href="css/main1.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+	<!--Header & Navigation Bar-->
+	<header>
+		<div class="content-wrapper">
+			<img src="img/laklogo.jpg" class="logo" alt="LAK Logo" width="160 x 80px">
+			<nav>
+				<ul>
+				<li><a href="MidTermProj.html">SiestaCon</a></li>
+				<li><a href="Bio.html">Anime Characters</a></li>
+				<li><a href="VolunteerApp.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!--Banner-->
+	<div class="hero">
+		<h1>LucArtKel</h1>
+		<p>Anime is life</p>
+	</div>
+
+	<br><br>
+ 	<!--main.css-->
+	<div class="outer-wrapper">
+		<!--main1.css-->
+		<header class="clearfix">
+			<h1>Character Facts</h1>
+			<!--line 109 script-->
+			<select id="char-list">
+				<option value="Characters">Choose a character</option>
+				<option value="aotL">Levi</option>
+				<option value="mhaD">Deku</option>
+				<option value="nsN">Naruto</option>
+				<option value="hxhG">Gon</option>
+				<option value="ftE">Erza</option>
+				<option value="acK">Koro Sensei</option>
+				<option value="sdsM">Meliodas</option>
+				<option value="tgK">Kaneki</option>
+			</select>
+		</header>
+
+		<!--main1.css-->
+		<div class="main clearfix">
+			<!--main1.css-->
+			<div class="img-holder">
+					<img id="info-pic" src="img1/unknown.jpg" alt="Mystery characters portrayed as shadows and question marks" width="360">
+			</div>
+			<!--main1.css-->
+			<div class="info-holder">
+				<p><strong>Show: </strong><span id="info-show">?</span></p>
+				<p><strong>Name: </strong><span id="info-name">?</span></p>
+				<p><strong>Japanese: </strong><span id="info-japname">?</span></p>
+				<p><strong>Alias: </strong><span id="info-alias">?</span></p>
+				<p><strong>Age: </strong><span id="info-age">?</span></p>
+				<p><strong>Gender: </strong><span id="info-gender">?</span></p>
+				<p><strong>Height: </strong><span id="info-height">?</span></p>
+				<p><strong>Occupation: </strong><span id="info-occupation">?</span></p>
+			</div>
+		</div>
+	</div>
+
+	<!--Postcard Generator
+	<div class="outer-wrapper">
+		<div class="content-wrapper">
+			<header>
+				<h1>Anime Postcard Generator</h1>
+				<p class="subtitle">Generate Postcards with your favorite anime characters</p>
+			</header>
+
+			<main role="main">
+				<div class="first step">
+					<h2>1. Choose a character</h2>
+					<select name="characters" id="characters">
+						<option selected disabled value="empty-slot">Characters</option>
+						<option value="aotL">Levi</option>
+						<option value="mhaD">Deku</option>
+						<option value="nsN">Naruto</option>
+						<option value="hxhG">Gon</option>
+						<option value="ftE">Erza</option>
+						<option value="acK">Koro Sensei</option>
+						<option value="sdsM">Meliodas</option>
+						<option value="tgK">Kaneki</option>
+					</select>
+				</div>
+				<div class="second step">
+					<h2>2. Enjoy Your Postcard!</h2>
+					<div id="postcard">
+						<p id="greeting">To Generate a Postcard</p>
+						<p id="char-heading">Choose a character</p>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	-->
+
+	<script>
+		document.getElementById('char-list').onchange = function() {
+			var selected = this.value;
+			document.getElementById('info-pic').src = 'img1/' + selected + '.png';
+			document.getElementById('info-show').textContent = charData[this.value].show;
+			document.getElementById('info-name').textContent = charData[this.value].name;
+			document.getElementById('info-japname').textContent = charData[this.value].japname;
+			document.getElementById('info-alias').textContent = charData[this.value].alias;
+			document.getElementById('info-age').textContent = charData[this.value].age;
+			document.getElementById('info-gender').textContent = charData[this.value].gender;
+			document.getElementById('info-height').textContent = charData[this.value].height;
+			document.getElementById('info-occupation').textContent = charData[this.value].occupation;
+		};
+	</script>
+
+	<!--Postcard Generator script
+	<script>
+		var characters = document.getElementById('characters');
+
+		characters.onchange = function() {
+			// console.log('state index: ' + characters.selectedIndex);
+			// console.log('state name: ' + characters.options[characters.selectedIndex].text);
+			// console.log('img/' + characters.value + '@2x.jpg');
+			document.getElementById('postcard').style.backgroundImage = 'url(img/' + characters.value + '@2x.jpg)';
+			document.getElementById('greeting').innerHTML = 'Greetings from';
+			document.getElementById('state-heading').innerHTML = characters.options[characters.selectedIndex].text;
+		}
+	</script>
+	-->
+
+	<script src="js/character-data.js"></script>
+
+	</body>
+</html>
