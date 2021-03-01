@@ -30,6 +30,6 @@ We decided to go with an anime theme, and assigned each member an HTML file.
 
 *2/26:*
 - **Kelia**
-  - Created a character-data.js script to use as a database for the table generators in Postcards.html.
+  - Created a character-data.js script to use as a database for the table generators in Postcards.html. Replaced all "state" data in the original Midterm Project file with "character" data.
 - **Lucy**
   - Created a button on Quiz.html (renamed; originally VolunterApp.html) that generates a random image. Currently not working as intended, but I will figure something out.
