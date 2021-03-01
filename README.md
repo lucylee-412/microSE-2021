@@ -11,7 +11,7 @@ We decided to go with an anime theme, and assigned each member an HTML file.
 
 ### Change Log:
 *2/28:*
-- **Lucy** - Added comments to Bio.html, detailing which CSS files were used for each div classes. Redid some of the code for outer-wrapper class and img-holder class to re-stylize font and images in Bio.html.
+- **Lucy** - Added comments to Bio.html, detailing which CSS files were used for each div classes. Redid some of the code for outer-wrapper class and img-holder class to re-stylize font and resize images in Bio.html. Replaced .png images that did not have a working transparent background. Need updated version of LAK logo from Kelia; in the meantime, will switch back to default SiestaCon banner.
 
 *2/27:*
 - **Lucy** - Debugged code in Bio.html (renamed; originally Postcards.html) to include missing curly braces, and matching variable + function names. Removed half with postcard generator.
