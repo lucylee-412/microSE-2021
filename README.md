@@ -19,17 +19,18 @@ We decided to go with an anime theme, and assigned each member an HTML file.
 
 *2/28:*
 - **Lucy**
-  - Added some comments to Bio.html, detailing which CSS files were used for each div classes.
+  - Added some comments to Bio.html, clarifying which CSS files were used for each div classes.
   - Redid some of the code for outer-wrapper class and img-holder class to re-stylize font and resize images in Bio.html.
-  - Replaced .png images that did not have a working transparent background. Need updated version of LAK logo from Kelia; in the meantime, will switch back to default SiestaCon banner.
+  - Replaced .png images that did not have a working transparent background. Need updated version of "LAK" logo from Kelia; in the meantime, will switch back to default "NAPS" logo.
 
 *2/27:*
 - **Lucy**
   - Debugged code in Bio.html (renamed; originally Postcards.html) to include missing curly braces, and matching variable + function names.
-  - Removed the half with the postcard generator off the page.
+  - Removed the postcard generator.
 
 *2/26:*
 - **Kelia**
-  - Created a character-data.js script to use as a database for the table generators in Postcards.html. Replaced all "state" data in the original Midterm Project file with "character" data.
+  - Created a character-data.js script to use as a database for the table generators in Postcards.html. Updated all old variables and functions in the original file to accept the new data and .png files.
+  - Created a logo to replace the NAPS image (currently missing), and changed banner message.
 - **Lucy**
   - Created a button on Quiz.html (renamed; originally VolunterApp.html) with form.css that uses characters.js to generate a random image. Currently not working as intended, but I will figure something out.
