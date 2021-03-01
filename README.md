@@ -34,3 +34,9 @@ We decided to go with an anime theme, and assigned each member an HTML file.
   - Created a logo to replace the NAPS image (currently missing), and changed banner message.
 - **Lucy**
   - Created a button on Quiz.html (renamed; originally VolunterApp.html) with form.css that uses characters.js to generate a random image. Currently not working as intended, but I will figure something out.
+
+### Known bugs:
+- **Contact.html**
+  1. \[Medium Priority] Button not displaying a randomly generated image.
+- **Bio.html**
+  1. \[Low Priority] When selecting "Choose a character" again, the original image does not display. Because it is not a .png file, we would have to either replace the image with a .png extension, or add an extra line of code.
