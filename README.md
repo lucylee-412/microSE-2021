@@ -1,8 +1,10 @@
 # microSE_2-26
 
-Contributors: Lucy Lee, Kelia
+Contributors: Lucy Lee, Kelia Morrah
+------------------------
 
 Assignment: Take the given Midterm Project files from the first half of the group project, and revamp the site.
+------------------------
 
 We decided to go with an anime theme, and divided the three pages we created among the three members.
 - Home page (originally SiestaCon) - **Artem**
@@ -14,7 +16,7 @@ We decided to go with an anime theme, and divided the three pages we created amo
 - **Lucy** - Added comments to Bio.html, detailing which CSS files were used for each div classes. Redid some of the code for outer-wrapper class and img-holder class to re-stylize font and images in Bio.html.
 
 *2/27:*
-- **Lucy** - Debugged code in Bio.html (renamed; originally Postcards.html) to include missing curly braces, and matching variable + function names.
+- **Lucy** - Debugged code in Bio.html (renamed; originally Postcards.html) to include missing curly braces, and matching variable + function names. Removed half with postcard generator.
 
 *2/26:*
 - **Kelia** - Created a character-data.js script to use as a database for the table generators in Postcards.html.
