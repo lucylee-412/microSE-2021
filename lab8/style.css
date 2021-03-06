@@ -1,0 +1,32 @@
+* {
+    font-family: Trebuchet, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background-color: #C5B9CD;
+  border: 2px solid #F7CAC9;
+}
+
+body {
+  background-color: #92A8D1;
+}
+
+.row {
+  background-color: #F7CAC9;
+  float: right;
+  font-size: 24px;
+}
+
+.column {
+  background-color: #DEC2CB;
+  float: left;
+  width: 33.33%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}

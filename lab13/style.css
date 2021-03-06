@@ -1,0 +1,21 @@
+body {
+  background-color: #92A8D1;
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+div {
+  column-gap: 100px;
+}
+
+.row {
+  background-color: #DEC2CB;
+}
+
+.column {
+  background-color: #DEC2CB;
+  float: left;
+  width: 33.33%;
+}
