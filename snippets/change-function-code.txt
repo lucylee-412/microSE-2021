@@ -1,8 +1,0 @@
-document.getElementById('info-show').textContent = charData[this.value].show;
-document.getElementById('info-name').textContent = charData[this.value].name;
-document.getElementById('info-japname').textContent = charData[this.value].japname;
-document.getElementById('info-alias').textContent = charData[this.value].alias;
-document.getElementById('info-age').textContent = charData[this.value].age;
-document.getElementById('info-gender').textContent = charData[this.value].gender;
-document.getElementById('info-height').textContent = charData[this.value].height;
-document.getElementById('info-occupation').textContent = charData[this.value].occupation;
