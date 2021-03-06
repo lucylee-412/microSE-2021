@@ -34,7 +34,7 @@ All my assignments done at this micro-credential can be found here.
   - Write a function called "cash register" that takes a shopping cart object and returns the total price of the items in the shopping cart, using an array and for loop in Javascript.
 - Lab 15
   - Populate a Ninja object with user input using Javascript.
-- Lab 16 (Group project)
+- [Lab 16 (Group project)](Lab%2016%20(Group))
   - Fix a demo website.
 - Lab 17
   - Use jQuery to manipulate CSS and apply animation to a box.
