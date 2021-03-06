@@ -1,42 +1,42 @@
-# microSE_2-26
+# microSE_2021
 
-###### Contributors: Lucy Lee, Kelia Morrah
+## Queensborough Community College's Software Engineering Micro-Credential Career Track in Web Development Boot Camp
+##### Contributor: Lucy Lee
 
-Assignment: Take the given Midterm Project files from the first half of the group project, and revamp the site.
-
-We decided to go with an anime theme, and assigned each member an HTML file.
-- [Home page](https://lucylee-412.github.io/microSE_2-26/Home.html) (originally SiestaCon) - **Artem**
-- [Anime character facts](https://lucylee-412.github.io/microSE_2-26/Bio.html) (originally state facts & postcard generator) - **Kelia**
-- [Contact form & random button generator](https://lucylee-412.github.io/microSE_2-26/Contact.html) (originally Helping Hands contact form) - **Lucy**
-
-### Change Log:
-*3/1:*
-- **Lucy**
-  - On closer inspection, I do not believe the .txt files in the snippets folder are needed at all. They are never called on, and are merely a copy of the data set used in Bio.html and Home.html. The normalize1.css is never used either. However, I'll leave them there for now, because we may want to call upon them in the future.
-  - Fixed indenting, and added additional comments that thoroughly reference which .css files were used in all HTML files.
-  - Renamed Quiz.html as Contact.html to reflect my intention of adding a form back in.
-  - All HTML files now have the same banners. Leaving the inconsistent footers alone for now.
-
-*2/28:*
-- **Lucy**
-  - Added some comments to Bio.html, clarifying which CSS files were used for each div classes.
-  - Redid some of the code for outer-wrapper class and img-holder class to re-stylize font and resize images in Bio.html.
-  - Replaced .png images that did not have a working transparent background. Need updated version of "LAK" logo from Kelia; in the meantime, will switch back to default "NAPS" logo.
-
-*2/27:*
-- **Lucy**
-  - Debugged code in Bio.html (renamed; originally Postcards.html) to include missing curly braces, and matching variable + function names.
-  - Removed the postcard generator.
-
-*2/26:*
-- **Kelia**
-  - Created a character-data.js script to use as a database for the table generators in Postcards.html. Updated all old variables and functions in the original file to accept the new data and .png files.
-  - Created a logo to replace the NAPS image (currently missing), and changed banner message.
-- **Lucy**
-  - Created a button on Quiz.html (renamed; originally VolunterApp.html) with form.css that uses characters.js to generate a random image. Currently not working as intended, but I will figure something out.
-
-### Known bugs:
-- **Contact.html**
-  1. \[Medium Priority] Button not displaying a randomly generated image.
-- **Bio.html**
-  1. \[Low Priority] When selecting "Choose a character" again, the original image does not display. Because it is not a .png file, we would have to either replace the image with a .png extension, or add an extra line of code.
+All my assignments done at this micro-credential can be found here.
+- Lab 1
+  - Create a website with basic HTML using different heading tags.
+- Lab 2
+  - Adding onto lab 1, insert an image.
+- Lab 3
+  - Adding onto lab 2, insert hyperlinks and ordered/unordered lists.
+- Lab 4
+  - Adding onto lab 3, 
+- Lab 5
+  - Adding onto lab 4,
+- Lab 6
+  - Adding onto lab 5, create a Favicon.
+- Lab 7 (index.html)
+  - Create an index page for all labs.
+- Lab 8
+  - Practice with CSS using Lorem ipsum filler text.
+- Lab 9
+  - Create a navigation bar using an external CSS sheet.
+- Lab 10
+  - Create a form (Fortune Teller theme) using Javascript.
+- Lab 11
+  - Create simple games using Python.
+- Lab 12
+  - Create prompts, alerts, and confirmation pop-up windows that ask the user to input a quadratic equation, and will calculate the volume of a cylinder using Javascript.
+- Lab 13
+  - Create a calculator (either "age" or "lifetime supply" themed) using Javascript.
+- Lab 14
+  - Write a function called "cash register" that takes a shopping cart object and returns the total price of the items in the shopping cart, using an array and for loop in Javascript.
+- Lab 15
+  - Populate a Ninja object with user input using Javascript.
+- Lab 16 (Group project)
+  - Fix a demo website.
+- Lab 17
+  - Use jQuery to manipulate CSS and apply animation to a box.
+- Project 1
+  - Create an interactive website with at least 3 pages to display "My Favorite Movies".
