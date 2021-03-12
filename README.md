@@ -4,6 +4,8 @@
 ##### Contributor: Lucy Lee
 
 All my assignments done at this micro-credential can be found here.
+- [Index (Lab 7)](index.html)
+  - Create an index page for all labs.
 - [Lab 1](lab1.html)
   - Create a website with basic HTML using different heading tags.
 - [Lab 2](lab2.html)
@@ -16,8 +18,6 @@ All my assignments done at this micro-credential can be found here.
   - Adding onto lab 4,
 - [Lab 6](lab6.html)
   - Adding onto lab 5, create a Favicon.
-- [Lab 7 (Index)](index.html)
-  - Create an index page for all labs.
 - [Lab 8](lab8)
   - Practice with CSS using Lorem ipsum filler text.
 - [Lab 9](lab9)
