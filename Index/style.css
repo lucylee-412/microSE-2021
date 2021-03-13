@@ -1,0 +1,31 @@
+* {
+    font-family: Trebuchet, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background-color: #C5B9CD;
+  border: 2px solid #F7CAC9;
+}
+
+body {
+  background-color: #92A8D1;
+}
+
+/* Navigation Menu */
+ul {
+  border: 1px solid #555;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #DEC2CB;
+  height: 100%
+  position: fixed;
+  overflow: auto;
+}
+
+p.round {
+  margin: 100px;
+  border: 2px solid red;
+  border-radius: 8px;
+}
