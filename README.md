@@ -13,11 +13,11 @@ All my assignments done at this micro-credential can be found here.
 - [Lab 3](lab3/lab3.html)
   - Adding onto lab 2, insert hyperlinks and ordered/unordered lists.
 - [Lab 4](lab4/lab4.html)
-  - Adding onto lab 3,
+  - Create a table of different colors.
 - [Lab 5](lab5/lab5.html)
-  - Adding onto lab 4,
+  - Adding onto lab 4, create a table of lists of lists.
 - [Lab 6](lab6/lab6.html)
-  - Adding onto lab 5, create a Favicon.
+  - Create a Favicon.
 - [Lab 8](lab8/lab8.html)
   - Practice with CSS using Lorem ipsum filler text.
 - [Lab 9](lab9/lab9.html)
