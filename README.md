@@ -1,7 +1,7 @@
 # microSE_2021
 
 ## Queensborough Community College's Software Engineering Micro-Credential Career Track in Web Development Boot Camp
-##### Contributor: Lucy Lee
+###### Contributor: Lucy Lee
 
 All my assignments done at this micro-credential can be found here.
 - [Index (Lab 7)](Index/index.html)
