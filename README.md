@@ -6,15 +6,15 @@
 All my assignments done at this micro-credential can be found here.
 - [Index (Lab 7)](index.html)
   - Create an index page for all labs.
-- [Lab 1](lab1.html)
+- [Lab 1](lab1)
   - Create a website with basic HTML using different heading tags.
-- [Lab 2](lab2.html)
+- [Lab 2](lab2)
   - Adding onto lab 1, insert an image.
-- [Lab 3](lab3.html)
+- [Lab 3](lab3)
   - Adding onto lab 2, insert hyperlinks and ordered/unordered lists.
-- [Lab 4](lab4.html)
+- [Lab 4](lab4)
   - Adding onto lab 3,
-- [Lab 5](lab5.html)
+- [Lab 5](lab5)
   - Adding onto lab 4,
 - [Lab 6](lab6)
   - Adding onto lab 5, create a Favicon.
