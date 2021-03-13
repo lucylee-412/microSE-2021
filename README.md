@@ -4,7 +4,7 @@
 ##### Contributor: Lucy Lee
 
 All my assignments done at this micro-credential can be found here.
-- [Index (Lab 7)](index.html)
+- [Index (Lab 7)](Index/index.html)
   - Create an index page for all labs.
 - [Lab 1](lab1)
   - Create a website with basic HTML using different heading tags.
@@ -24,7 +24,7 @@ All my assignments done at this micro-credential can be found here.
   - Create a navigation bar using an external CSS sheet.
 - Lab 10
   - Create a form (Fortune Teller theme) using Javascript.
-- [Lab 11](Game.py)
+- [Lab 11](lab11/Game.py)
   - Create simple games using Python.
 - [Lab 12](lab12)
   - Create prompts, alerts, and confirmation pop-up windows that ask the user to input a quadratic equation, and will calculate the volume of a cylinder using Javascript.
