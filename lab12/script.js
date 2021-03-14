@@ -22,4 +22,5 @@ else {
   console.log("Roots are imaginary.");
 }
 
-document.getElementById("quadForm").innerHTML = "The roots found by the quadratic formula are " + x1 + " or " + x2 + ".";
+document.getElementById("quadEquation").innerHTML = "The roots found by the quadratic formula are " + x1 + " or " + x2 + ".";
+document.getElementById("volCylinder").innerHTML = "The roots found by the quadratic formula are " + x1 + " or " + x2 + ".";
