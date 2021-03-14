@@ -38,5 +38,6 @@ All my assignments done at this micro-credential can be found here.
   - Fix a demo website.
 - Lab 17
   - Use jQuery to manipulate CSS and apply animation to a box.
-- Project 1
+- [Project 1](movies)
   - Create an interactive website with at least 3 pages to display "My Favorite Movies".
+  - I changed the theme to music albums instead, since I am not a frequent movie-goer.
