@@ -22,7 +22,7 @@ body {
   background-color: #92A8D1;
 }
 
-/* Navigation Menu */
+/* Navigation Menu
 ul {
   border: 1px solid #555;
   list-style-type: none;
@@ -33,7 +33,7 @@ ul {
   height: 100%
   position: fixed;
   overflow: auto;
-}
+}*/
 
 p.round {
   margin: 100px;

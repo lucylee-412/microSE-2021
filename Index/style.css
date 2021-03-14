@@ -1,5 +1,5 @@
 * {
-    font-family: Trebuchet, sans-serif;
+  font-family: Trebuchet, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,25 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: #92A8D1;
-}
-
-/* Navigation Menu */
-ul {
-  border: 1px solid #555;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100px;
-  background-color: #DEC2CB;
-  height: 100%
-  position: fixed;
-  overflow: auto;
-}
-
-p.round {
-  margin: 100px;
-  border: 2px solid red;
-  border-radius: 8px;
 }
 
 .header-img {
@@ -42,36 +23,44 @@ p.round {
 
 .grid-container {
   display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'left middle middle middle middle right';
-  /* grid-column-gap: 10px; - if you want gap between the columns */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 5px;
+  background-color: #F7CAC9;
+  padding: 5px;
 }
 
-.left,
-.middle,
-.right {
-  padding: 10px;
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
 }
 
-.left {
-  grid-area: left;
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #C5B9CD;
+  overflow-x: hidden;
 }
 
-.middle {
-  grid-area: middle;
+.sidenav a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
 }
 
-.right {
-  grid-area: right;
+.sidenav a:hover {
+  background-color: #F7CAC9;
+  color: black;
 }
 
-@media (max-width: 600px) {
-  .grid-container  {
-    grid-template-areas:
-      'header header header header header header'
-      'left left left left left left'
-      'middle middle middle middle middle middle'
-      'right right right right right right';
-  }
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+  position: relative;
 }
