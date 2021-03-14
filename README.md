@@ -4,7 +4,7 @@
 ###### Contributor: Lucy Lee
 
 All my assignments done at this micro-credential can be found here.
-- [Index (Lab 7)](Index/index.html)
+- [Index / Portfolio (Lab 7)](Index/index.html)
   - Create an index page for all labs.
 - [Lab 1](lab1/lab1.html)
   - Create a website with basic HTML using different heading tags.
@@ -38,5 +38,6 @@ All my assignments done at this micro-credential can be found here.
   - Fix a demo website.
 - Lab 17
   - Use jQuery to manipulate CSS and apply animation to a box.
-- Project 1
+- [Project 1](movies)
   - Create an interactive website with at least 3 pages to display "My Favorite Movies".
+  - I changed the theme to music albums instead, since I am not a frequent movie-goer.
