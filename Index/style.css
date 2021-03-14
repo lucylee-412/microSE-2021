@@ -31,39 +31,47 @@ p.round {
 }
 
 .header-img {
-  width: 90%;
+  width: 100%;
   height: 320px;
   background: url('Banner.png');
 
   background-size: cover;
   position: relative;
-  left: 100px;
   background-repeat: no-repeat;
 }
 
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left middle middle middle middle right';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
 }
 
-.sidenav a {
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
+.left,
+.middle,
+.right {
+  padding: 10px;
 }
 
-.sidenav a:hover {
-  background-color: #ddd;
-  color: black;
+.left {
+  grid-area: left;
 }
 
-.content {
-  margin-left: 200px;
+.middle {
+  grid-area: middle;
+}
+
+.right {
+  grid-area: right;
+}
+
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas:
+      'header header header header header header'
+      'left left left left left left'
+      'middle middle middle middle middle middle'
+      'right right right right right right';
+  }
 }
