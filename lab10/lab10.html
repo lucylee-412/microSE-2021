@@ -1,0 +1,67 @@
+<!--Author: Lucy Lee-->
+<!--Instructor: Professor Luna Ramirez-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="shortcut icon" type="image/png" href="Favicon.png"/>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>LAB 10</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="header-img"></div>
+    </main>
+
+<!--Description-->
+    <header>
+      <h1>CUNY QCC Software Engineering Micro-Credential Cohort 2</h1>
+      <h2>Lab 10</h2>
+      <h3>Javascript Practice</h3>
+      <h4>2/22/2021</h4>
+      <h5>by</h5>
+      <h6>Lucy Lee</h6><br>
+    </header>
+
+    <form id="Fortune">
+        <label for="name">Name: </label>
+        <input type="text" name="Name" id="name" value=""/><br><br>
+
+        <label for="Children">Number of Children: </label>
+        <input type="text" name="Children" id="children" value=""/><br><br>
+
+        <label for="Location">Ideal Location: </label>
+        <input type="text" name="Location" id="location" value=""/><br><br>
+
+        <label for="Partner">Ideal Partner: </label>
+        <input type="text" name="Partner" id="partner" value=""/>
+    </form>
+
+    <br>
+
+    <button onclick="getInfo()">Click for your fortune!</button><br>
+
+    <center><h2 id="Results"></h2></center>
+
+    <script>
+      function getInfo(){
+        var x = document.getElementById("Fortune");
+        var text = "Hi, " + x.elements[0].value + ". You will have " + x.elements[1].value + " child(ren) in the future. You will live in " + x.elements[2].value + " and you will be married to " + x.elements[3].value + ".";
+
+        document.getElementById("Results").innerHTML = text;
+      }
+    </script>
+
+<!--Return to Index-->
+    <a href="../Index/index.html">Go Back</a>
+
+<!--JavaScript-->
+    <script src="script.js" language="javascript" type="text/javascript"></script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+  </body>
+</html>

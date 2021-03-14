@@ -1,0 +1,66 @@
+* {
+  font-family: Trebuchet, sans-serif;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background-color: #C5B9CD;
+  border: 2px solid #F7CAC9;
+}
+
+body {
+  background-color: #92A8D1;
+}
+
+.header-img {
+  width: 100%;
+  height: 320px;
+  background: url('Banner.png');
+
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 5px;
+  background-color: #F7CAC9;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #C5B9CD;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #F7CAC9;
+  color: black;
+}
+
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
