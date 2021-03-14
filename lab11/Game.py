@@ -5,12 +5,12 @@ def tryAgain():
         answer = input("\n====================\nDo you want to play another game? Y/N ")
 
         #Invalid input check
-        while answer not in ('Y', 'N'):
+        while answer not in ('Y', 'y', 'N', 'n'):
             print("That is not valid input. Please type either Y or N.")
             answer = input("\nDo you want to play again? Y/N ")
 
         #User says Y
-        if answer == "Y":
+        if answer == "Y" or answer == "y":
             choice = int(input("\nWhich game would like you to play? Choose 1 or 2.\n1) Roll of the Dice\n2) Guess the Number\n\nChoice: "))
 
             #Invalid input check
